@@ -1,0 +1,41 @@
+.navbar {
+  height: 45px;
+  background: #000000cc;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  font-family: "SF Pro Thin", sans-serif;
+  padding: 0 35px;
+  z-index: 99;
+}
+
+.navbar > ul {
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.nav-icon {
+  width: 18px;
+}
+
+@media (max-width: 1024px) {
+  
+  .navbar > ul {
+    gap: 0;
+    width: 100%;
+  }
+
+}

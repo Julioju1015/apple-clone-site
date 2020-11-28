@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.alert-box {
+  background: #fbfbfd;
+  margin-top: 45px;
+  text-align: center;
+  padding: 7px;
+  color: #1d1d1d;
+}
+
+.alert-box h2 {
+  font-size: 12px;
+  font-family: "SF Pro Medium", sans-serif;
+  font-weight: bold;
+}
+
+.alert-box p {
+  font-size: 12px;
+  font-family: "SF Pro Thin", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+  line-height: 17px;
+}
+
+.alert-box a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.alert-box a:hover {
+  text-decoration: underline;
+}

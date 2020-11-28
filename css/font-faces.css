@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "SF Pro Medium";
+  font-style: normal;
+  src: url("../fonts/SF-Pro-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SF Pro Thin";
+  font-style: normal;
+  src: url("../fonts/SF-Pro-Thin.woff2") format("woff2");
+}
